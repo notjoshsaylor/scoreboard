@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+}
+
+h3,
+.reset{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    margin: 0 auto 1em auto;
+    font-size: 2.25rem;
+    color: #eee;
+}
+
+.scores{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reset{
+    align-self: center;
+}
+
+.score-btn{
+    margin: 20px 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.score{
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+    text-align: center;
+    color: #F94F6D;
+    background: black;
+    width: 125px;
+    padding: 10px 20px;
+}
+
+@media only screen and (min-width: 800px){
+    body{
+        height: 100vh;
+        background-image: url(bleachers.jpg);
+        background-size: cover;
+        background-repeat: none;
+        background-position: center;
+      
+    }
+    .container{
+   
+        max-width: 50vw;
+        max-height: 75vh;
+        padding: 10px;
+    }
+}
